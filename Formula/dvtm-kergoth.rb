@@ -6,8 +6,6 @@ class DvtmKergoth < Formula
   # https://github.com/martanne/dvtm/issues/19
   # depends_on MaximumMacOSRequirement => :yosemite
 
-  conflicts_with "dvtm", :because => "fork of dvtm"
-
   def install
     ENV.append_to_cflags "-D_DARWIN_C_SOURCE"
     system "make", "PREFIX=#{prefix}", "LIBS=-lc -lutil -lncurses", "install"
