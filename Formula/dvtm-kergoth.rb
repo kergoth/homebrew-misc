@@ -1,7 +1,7 @@
 class DvtmKergoth < Formula
   desc "Dynamic Virtual Terminal Manager - kergoth's fork"
   homepage "http://www.brain-dump.org/projects/dvtm/"
-  head "https://github.com/kergoth/dvtm.git", :branch => "integrate"
+  head "https://github.com/kergoth/dvtm.git", :branch => "kergoth"
 
   # https://github.com/martanne/dvtm/issues/19
   # depends_on MaximumMacOSRequirement => :yosemite
