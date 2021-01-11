@@ -7,7 +7,6 @@ cask 'fantastical1' do
           :sha256 => '3d789ff8dd91c8ebc1b63d2811ec17e0a950433b03605d8c10eef010733cf79a'
   name 'Fantastical'
   homepage 'https://flexibits.com/fantastical'
-  license :freemium
 
   app 'Fantastical.app'
 
